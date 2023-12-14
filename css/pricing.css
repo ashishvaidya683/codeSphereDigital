@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url(./main.css);
+@import url(./style.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+html, body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+
+a {
+  color: rgba(250, 249, 246, 0.8549019608);
+  text-decoration: none;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.pricing-section {
+  margin-top: 10px;
+  color: #fff;
+}
+.pricing-section .pricing-container {
+  width: 100%;
+  position: relative;
+}
+.pricing-section .pricing-container .img-container {
+  height: 500px;
+  opacity: 0.2;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: none;
+}
+.pricing-section .pricing-container .img-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.pricing-section .pricing-container .heading {
+  padding-bottom: 20px;
+}
+.pricing-section .pricing-container .heading h1 {
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+}
+.pricing-section .pricing-container .content h4 {
+  color: #fff;
+  opacity: 0.9;
+  text-align: center;
+  font-size: 25px;
+  padding: 0 40px 40px 40px;
+  font-weight: 400;
+}
+.pricing-section .pricing-container .content .sub-content h2 {
+  padding-bottom: 20px;
+}
+.pricing-section .pricing-container .content .sub-content ol, .pricing-section .pricing-container .content .sub-content ul {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.pricing-section .pricing-container .content .sub-content ol li, .pricing-section .pricing-container .content .sub-content ul li {
+  font-size: 25px;
+  font-family: "roboto";
+  padding-bottom: 10px;
+}
+.pricing-section .pricing-container .content .sub-content ol li span, .pricing-section .pricing-container .content .sub-content ul li span {
+  font-size: 25px;
+  font-family: "roboto";
+  font-weight: 800;
+  color: #e52d2d;
+  padding-right: 5px;
+}
+.pricing-section .pricing-container .content .sub-content p {
+  font-size: 22px;
+}/*# sourceMappingURL=pricing.css.map */
