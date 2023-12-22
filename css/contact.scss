@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(./main.css);
+@import url(./style.css);
+
+// Reset and global styles
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+  }
+  
+
+  $primary-color: #faf9f6da;
+  $seccondary-color: #0D1A20;
+  $btn-background: #CD24D6;
+
+  html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+  }
+
+
+  a{
+    color: $primary-color;
+    text-decoration: none;
+  }
+
+  section{
+    margin-bottom: 80px;
+  }
+
+  button{
+    cursor: pointer;
+  }
+
+// Contact Us section
+.contactus {
+    margin-top: 10px;
+  
+    .title {
+      color: $primary-color;
+      font-size: 36px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+  
+    .contactus-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+  
+      .left {
+        form {
+          background-color: $seccondary-color;
+          padding: 30px;
+          border-radius: 10px;
+  
+          .input-box {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            padding-bottom: 18px;
+            width: 100%;
+  
+            label {
+              font-size: 20px;
+            }
+  
+            input,
+            textarea {
+              border-radius: 5px;
+              outline: 0;
+              padding: 10px;
+              border: 0;
+              font-size: 16px;
+              color: $primary-color;
+            }
+  
+            h6 {
+              font-size: 12px;
+              opacity: 0.8;
+              font-weight: 400;
+            }
+          }
+  
+          .input-box-col {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            padding-bottom: 10px;
+  
+            label {
+              font-size: 20px;
+            }
+  
+            input:checked {
+              outline: 0;
+              background-color: $btn-background;
+              padding: 10px;
+              border: 0;
+              font-size: 16px;
+              color: $primary-color;
+            }
+          }
+  
+          .submit-btn {
+            width: 100%;
+            justify-content: center;
+            display: flex;
+  
+            button {
+              padding: 10px 20px;
+              border-radius: 5px;
+              outline: 0;
+              border: 0;
+              background-color: $btn-background;
+              color: #fff;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+  
+      .right {
+        .img-container {
+          height: 600px;
+  
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 20px;
+          }
+        }
+      }
+    }
+  }
+  

@@ -31,9 +31,87 @@
                     </ul>
                 </div>
             </div>
+            <div class="mobile-nav container">
+                
+                <div class="header-container">
+                    <div class="img-container">
+                        <a href="./index.html">
+                            <img src="./img/LOGO2.png" alt="">
+                        </a>
+                    </div>
+    
+                    <div class="menu-btn">
+                        <button onclick=OpenMenubar()>Menu</button>
+                    </div>
+
+                    <div class="slider">
+
+                        <div class="close-btn">
+                            <button onclick= CloseMenuBar()>
+                                <div class="img-container">
+                                    <img src="./img/ICONS/cross.svg" alt="">
+                                </div>
+                            </button>
+                        </div>
+
+                        <div class="menu">
+                            <ul>
+                                <li><a href="./blogs.html">Blogs</a></li>
+                                <li><a href="./pricing.html">Pricing</a></li>
+                                <li><a href="./service.html">Our Services</a></li>
+                                <li><a href="./aboutus.html">About Us</a></li>
+                                <li><a href="./contact.html">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </header>
 
-        <main></main>
+        <main>
+            <section class="contactus container">
+                <h2 class="title">Contact Us</h2>
+                <div class="contactus-container">
+                    <div class="left">
+                        <form action="" method="post">
+                            <div class="input-box">
+                                <label for="name">Full Name</label>
+                                <input type="text" placeholder="Enter full name" name="name" id="name" required>
+                                <h6>Please enter your full name</h6>
+                            </div>
+        
+                            <div class="input-box">
+                                <label for="email">Email Address</label>
+                                <input type="email" placeholder="Enter your email address" name="email" id="email" required>
+                                <h6>We'll never share your email with anyone else</h6>
+                            </div>
+        
+                            <div class="input-box">
+                                <label for="phone">Phone number</label>
+                                <input type="tel" placeholder="Enter your phone number" name="phone" id="phone" required>
+                                <h6>We'll never share your phone number with anyone else</h6>
+                            </div>
+        
+                            <div class="input-box">
+                                <label for="message">Message</label>
+                                <textarea placeholder="Type your message here" name="message" id="message" cols="30" rows="5" required></textarea>
+                            </div>
+        
+                            <div class="submit-btn">
+                                <button type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+        
+                    <div class="right">
+                        <div class="img-container">
+                            <img src="./img/contact-image.jpg" alt="Contact Image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
 
         <footer>
             <div class="footer-container container">

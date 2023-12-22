@@ -47,3 +47,15 @@ document.querySelectorAll(".elem").forEach(function(elem){
         });
     });
 });
+
+
+function OpenMenubar(){
+    const slider = document.querySelector(".slider");
+    slider.style.display = "block"
+}
+
+function CloseMenuBar() {
+    const slider = document.querySelector(".slider");
+    slider.style.display = "none"
+}
+
